@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+  margin: 0;
+}
+
+.game-container {
+  height: 550px;
+  width: 500px;
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.h__conteiner{
+  height: 140px;
+  border-radius: 20px;
+  padding-top: 3px;
+  background-color: #dddcdc;
+}
+
+.m__conteiner{
+  height: 220px;
+  border-radius: 20px;
+  background-color: #dddcdc;
+}
+
+.f__conteiner{
+  height: 150px;
+  margin-top: 15px;
+  border-radius: 20px;
+  background-color: #dddcdc;
+}
+
+.choices img {
+  width: 80px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.choices img:hover {
+  transform: scale(1.1);
+}
+
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.result-container .player, .result-container .computer {
+  text-align: center;
+}
+
+.result-container img {
+  width: 100px;
+}
+
+.vs {
+  margin: 0 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  transition: opacity 0.3s ease;
+}
+
+.result-win {
+  color: green;
+}
+
+.result-lose {
+  color: red;
+}
+
+.result-draw {
+  color: gray;
+}
+
+.scoreboard {
+  margin-top: 20px;
+  font-size: 16px;
+}

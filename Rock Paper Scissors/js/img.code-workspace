@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../img"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "js",
+		"files.autoSave": "onFocusChange"
+	}
+}
