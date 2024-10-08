@@ -1,0 +1,147 @@
+body {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient( rgba(9, 33, 247, 0.752),#af0,rgb(199, 208, 29))no-repeat;
+}
+
+.container {
+    width: 500px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: rgb(26, 102, 135);
+}
+
+.one {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one h1 {
+    width: 97%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);   
+    font-style: italic;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.input {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input textarea {
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    resize: none; /* Чтобы текстовое поле не менялось вручную */
+    padding: 10px;
+    font-size: 16px;
+}
+
+.input button {
+    height: 40px;
+    width: 150px;
+    background: rgb(57, 73, 161);
+    font-size: 30px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+.input button:hover {
+    background-color: #8585f2;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+}
+
+li .deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+li .deleteBtn:hover {
+    background-color: darkred;
+}
+
+.lineContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 460px;
+}
+
+.lineInContainer {
+    height: 82%;
+    width: 97%;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+#taskList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.deleteBtn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: darkred;
+}
+
+.completeBtn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.completeBtn:hover {
+    background-color: darkgreen;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
